@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+h3 {
+  color: blue;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+input {
+  border: 4px double black;
+  background: #8bbfff;
+  padding: 0 10px;
+}
+
+.buttonAdd {
+  border: 4px double black;
+  background: #8bbfff;
+  padding: 0 10px;
+}
+
+.item {
+  margin-top: 10px;
+}
+
+.item input{
+  margin-right: 10px;
+}
+
+.item button{
+  color: red;
+  border: none;
+  background-color: #fff;
+  margin-left: 10px;
+}
